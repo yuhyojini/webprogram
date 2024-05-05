@@ -1,0 +1,101 @@
+body{background:#f7e9f2;}
+
+h2:hover{background:black; color:pink;}
+h2:active{background:gray; color:#FF204E;}
+
+
+.name{
+    height: 150px;
+    background-color: lavender;
+    border-radius: 20px;
+    width:80%;
+    height:23%;
+    display: inline-block;
+    text-shadow: 0 0 3px #0000FF, 0 0 5px #f87ace;
+    
+}
+
+#n{
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 20px;
+    width : 1180px;
+    height : 700px;
+    flex-direction: row;
+    background:#facaeb; 
+    padding:6px;
+}
+a{color:black; text-decoration:none; padding:5px 10px;}
+a:hover{background:black; color:white; font-weight:bolder;}
+
+
+.hobby{
+    display: inline-block;
+    width: 200px;
+    height: 70px;
+    margin: 20px;
+    padding: 10px;
+    flex: 1 0 auto;
+}
+.dream{
+    display: inline-block;
+    width: 200px;
+    height: 70px;
+    margin: 20px;
+    flex: 1 0 auto;
+    padding: 10px;
+}
+.love{
+    display: inline-block;
+    width: 200px;
+    height: 70px;
+    margin: 20px;
+    padding: 10px;
+}
+.email{
+    display: inline-block;
+    width: 200px;
+    height: 70px;
+    margin: 20px;
+    padding: 10px;
+}
+
+p::first-letter{color:orange; font-size:20px; font-weight:bold;}
+
+table{table-layout:auto; width:100%;
+    border-collapse:separate;
+    border-spacing:5px 10px; border:2px solid pink;
+}
+table td:hover{
+    background-color: #FEC7B4;
+    color: red;
+}
+th {background:#891652;}
+
+.title{
+display: inline-block;
+background:rgb(240, 220, 220);
+border-radius: 80px 50px 80px 10px;
+}
+.side{
+    display: inline-block;
+}
+
+
+.dropdown{ position: relative; display: inline-block;}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background: ghostwhite;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    display:block;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+    color:black;
+}
+.dropdown-content a:hover {background:lavender;}
+.dropdown:hover 
+.dropdown-content{display:block;}
